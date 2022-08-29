@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab7</string>
+    <string name="iniciar_secion">Iniciar Secion</string>
+    <string name="laboratorio_7">Laboratorio 7</string>
+    <string name="nuevo_usuario">Nuevo usuario? Crea tu cuenta aqui!</string>
+    <string name="placeholder_correo">Ingresa tu correo</string>
+    <string name="nueva_cuenta">Nueva cuenta</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="buenos_dias">Buenos dias!</string>
+    <string name="actualiza_tu_perfil">Hola xd, necesitamos que actualices tu perfil!</string>
+    <string name="actualizar_perfil">Actualizar perfil</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="actualizar">actualizar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
