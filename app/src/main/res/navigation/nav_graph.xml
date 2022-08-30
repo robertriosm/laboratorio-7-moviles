@@ -14,8 +14,8 @@
             android:id="@+id/action_login_to_newAccount"
             app:destination="@id/newAccount" />
         <action
-            android:id="@+id/action_login_to_home3"
-            app:destination="@id/home3" />
+            android:id="@+id/action_login_to_home2"
+            app:destination="@id/home2" />
     </fragment>
     <fragment
         android:id="@+id/newAccount"
@@ -23,8 +23,8 @@
         android:label="fragment_new_account"
         tools:layout="@layout/fragment_new_account" >
         <action
-            android:id="@+id/action_newAccount_to_home3"
-            app:destination="@id/home3" />
+            android:id="@+id/action_newAccount_to_home2"
+            app:destination="@id/home2" />
     </fragment>
     <fragment
         android:id="@+id/profile"
@@ -36,11 +36,12 @@
             app:destination="@id/login" />
     </fragment>
     <fragment
-        android:id="@+id/home3"
+        android:id="@+id/home2"
         android:name="com.example.lab7.Home"
-        android:label="Home" >
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_home3_to_profile"
+            android:id="@+id/action_home2_to_profile"
             app:destination="@id/profile" />
     </fragment>
 </navigation>
